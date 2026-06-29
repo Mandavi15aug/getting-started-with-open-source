@@ -12,6 +12,7 @@ Wondering why you contribute to Open Source?  Here are a few good reasons it can
 
 ### [Compilation of Open Source Resources](./compilation_of_open_source_resources.md)
 This file includes a collection of external resources (links) that elaborate on how to contribute to Open Source projects effectively as a newbie.
+
 ### [How to organize an Open Source sprint](./how_to_organize_an_open_source_sprint.md)
 An Open Source sprint is a short event where groups of people get together to work on a single Open Source project with help from its maintainers.  We provide detailed instructions and resources for organizing an Open Source sprint at your company, club or Meetup Group. 
 
@@ -31,7 +32,9 @@ Before contributing, you need Git source control installed on your system:
 * **Ubuntu / WSL2 Users**: Open your Linux command terminal pane and run the following command directly:
   ```bash
   sudo apt update && sudo apt install git -y
-  ```### 2. Fork and Clone the Repository
+  ```
+
+### 2. Fork and Clone the Repository
 Instead of making changes directly to this main project layout, you will safely develop updates on your own cloud copy (called a "fork"):
 1. Scroll to the top-right corner of this GitHub screen and click the **Fork** button.
 2. Once the fork repository layout is generated under your personal GitHub profile account, copy its project URL path.
@@ -49,7 +52,8 @@ Follow these standard industry development steps to safely capture your workspac
   ```bash
   git checkout -b my-first-contribution
   ```
-  * **Step 3.2: Save your file edits**
+
+* **Step 3.2: Save your file edits**
   Open the repository documentation folder pages inside your preferred code studio editor workspace (such as VS Code), adjust the text files, and hit save.
 
 * **Step 3.3: Stage and commit your changes**
